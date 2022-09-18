@@ -1,25 +1,10 @@
 'use strict';
 
-/*
-// Prints text part of the element
-console.log(document.querySelector('.message').textContent);
 
-document.querySelector('.message').textContent = '🎉 Correct Number!';
-
-document.querySelector('.number').textContent = 13;
-
-document.querySelector('.score').textContent = 18;
-
-// Get value in the textboxs add `.value`
-document.querySelector('.guess').value = 13;
-
-console.log(document.querySelector('.guess').value);
-
-*/
-
-// Random number betweeen 1 - 20
 let score = 20;
 let highscore = 0;
+
+// Generates a random number betweeen 1 - 20
 let secretNumber = Math.trunc(Math.random() * 20) + 1;
 document.querySelector('.score').textContent = score;
 /* Catch a glimpse of the secret number
